@@ -12,7 +12,7 @@ For every single song, requests has been made to the url https://api.spotify.com
 * danceability -> how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. 
 * energy -> represents a perceptual measure of intensity and activity
 * key -> The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.
-* loudness -> the overall loudness of a track in decibels (dB)
+* loudness -> the overall loudness of a track in decibels (dB) (-60 to 0)
 * mode -> Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.
 * speechiness -> Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value.
 * acousticness -> whether the track is acoustic
@@ -24,10 +24,21 @@ For every single song, requests has been made to the url https://api.spotify.com
 For more detailed information you can visit https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features.
 ## Exploratory Data Analysis
 ![alt text for screen readers](images/correlation.png "Feature Correlation")
-* Vikings Song Characteristic
-* * It is highly instrumental.
-* * Less louder and less energetic.
-* * More negativenes conveyed by tracks. (angry, sad, unhappy etc.)
 ![alt text for screen readers](images/radar-graph.png "Feature Correlation")
+* Vikings Song Characteristics
+  * It is highly instrumental.
+  * Less louder, less energetic, and less danceable songs.
+  * It is very accoustic.
+  * More negative vibes conveyed by tracks. (angry, sad, unhappy etc.)
+* Silicon Valley Song Characteristics
+  * It is highly energetic and danceable songs
+  * More louder songs.
+  * It is not accoustic.
+  * More positive vibes conveyed by tracks. (happy, cheerful etc.)
+* Sons of Anarchy Song Characteristics
+  * It is energetic and somewhat danceable
+  * Louder songs
+  * It is somewhat accoustic
+  * Both positive and negative vibes conveyed by tracks.
 ## Model Building
 ## Application
