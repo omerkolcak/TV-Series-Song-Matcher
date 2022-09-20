@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet" />
+    <link href="{{url_for('static', filename = 'css/main.css')}}" rel="stylesheet" />
+  </head>
+  <body style="background-color: #00a5bb; color: white;">
+    <h1 style="text-align: center;"> {{track_info['artist_name']}} - {{track_info['track_name']}} </h1>
+    <h3 style="text-align: center;"> It matches with the {{prediction['series_name']}} by matching score of {{prediction['probability']}}</h3>
+
+    <div class="row">
+        <div class="column">
+            <img src="{{track_info['album_image_src']}}" width="400" height="400">
+        </div>
+
+        <div class="column">
+            <div class="row">
+                {{graph | safe}}
+            </div>
+            <div class="row">
+                <text style="text-align: center; color: white"> Tempo :{{ track_info['additional_audio_features']['tempo']}}</text>
+                <br/>
+                <text style="text-align: center; color: white"> Loudness : {{track_info['additional_audio_features']['loudness']}}</text>
+            </div>
+        </div>
+        
+        <div class="column">
+            <img src="{{track_info['series_image_src']}}" width="400" height="400">
+        </div>
+      </div>
+    
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

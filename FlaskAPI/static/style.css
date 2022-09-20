@@ -1,0 +1,14 @@
+.box{
+    width: 100%;
+    text-align:center;
+}
+
+.search-box{
+    height: 100px;
+    width: 800px;
+    text-align:center;
+}
+
+input {
+    font-size: 20px;
+  }

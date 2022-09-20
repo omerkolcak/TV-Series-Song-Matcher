@@ -1,0 +1,6 @@
+# ignore juptyter notebook check points
+.ipynb_checkpoints
+# ignore temporary files
+tmp/
+# ignore .env files for secret values
+.env
