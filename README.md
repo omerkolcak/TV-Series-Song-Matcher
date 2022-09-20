@@ -23,5 +23,7 @@ For every single song, requests has been made to the url https://api.spotify.com
 
 For more detailed information you can visit https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features.
 ## Exploratory Data Analysis
+![alt text for screen readers](images/correlation.png "Feature Correlation")
+![alt text for screen readers](images/radar-graph.png "Feature Correlation")
 ## Model Building
-## Productionarize
+## Application
