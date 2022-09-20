@@ -13,10 +13,15 @@ For every single song, requests has been made to the url https://api.spotify.com
 * energy -> represents a perceptual measure of intensity and activity
 * key -> The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on. If no key was detected, the value is -1.
 * loudness -> the overall loudness of a track in decibels (dB)
-*mode -> Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.
+* mode -> Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.
 * speechiness -> Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value.
 * acousticness -> whether the track is acoustic
 * instrumentalness -> predicts whether a track contains no vocals
 * liveness -> higher liveness values represent an increased probability that the track was performed live.
 * valence -> A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track.
 * tempo -> The overall estimated tempo of a track in beats per minute (BPM)
+
+For more detailed information you can visit https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features.
+## Exploratory Data Analysis
+## Model Building
+## Productionarize
