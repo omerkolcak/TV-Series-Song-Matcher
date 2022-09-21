@@ -27,8 +27,8 @@ There were some outliers on the dataset. I removed the outliers by every attribu
 ![alt text for screen readers](images/outliers.gif "Outliers")
 ## Exploratory Data Analysis
 <p float="left">
-  <img src="/images/radar-graph.gif"/ width="150">
-  <img src="/images/bar-graph.gif" width="150">
+  <img src="/images/radar-graph.gif"/ width="400">
+  <img src="/images/bar-graph.gif" width="400">
 </p>
 ![alt text for screen readers](images/correlation.png "Feature Correlation")
 ![alt text for screen readers](images/radar-graph.gif "Radar Graph")
