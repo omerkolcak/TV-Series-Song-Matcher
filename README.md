@@ -26,8 +26,8 @@ For more detailed information you can visit https://developer.spotify.com/docume
 There were some outliers on the dataset. I removed the outliers by every attribute so the song characteristics would be clean. The outliers could be detected from the below figure.
 ![alt text for screen readers](images/outliers.gif "Outliers")
 ## Exploratory Data Analysis
-<p float="left">
-  <img src="/images/radar-graph.gif"/ width="400">
+<p align="up">
+  <img src="/images/radar-graph.gif"/ width="600">
   <img src="/images/bar-graph.gif" width="400">
 </p>
 ![alt text for screen readers](images/correlation.png "Feature Correlation")
