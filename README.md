@@ -1,5 +1,5 @@
 # TV Series and Song Matcher: Project Overview
-I love watching tv series, and I give extra attention the song choices for the tv series I watch. Also, I love listening music, and sometimes I think that for a particular song could be a perfect for for particular TV Series. Therefore, I wonder if Machine Learning can decide that. In order to achieve this, I followed the steps:</br>
+I love watching tv series, and I give extra attention the song choices for the tv series I watch. Also, I love listening music, and sometimes I think that for a particular song could be a perfect match for particular TV Series. Therefore, I wonder if Machine Learning can decide that. In order to achieve this, I followed the steps:</br>
 * Scraped all of the songs that is played on the TV Series from tunefind.com by using Selenium.
 * I extracted the audio features of the songs from Spotify Developer API.
 * I tried different classification algorithms to get the best performance. (Since this is a classification task) 
@@ -22,6 +22,9 @@ For every single song, requests has been made to the url https://api.spotify.com
 * tempo -> The overall estimated tempo of a track in beats per minute (BPM)
 
 For more detailed information you can visit https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features.
+## Data Cleaning
+There were some outliers on the dataset. I removed the outliers by every attribute so the song characteristics would be clean. The outliers could be detected from the below figure.
+![alt text for screen readers](images/outliers.gif "Outliers")
 ## Exploratory Data Analysis
 ![alt text for screen readers](images/correlation.png "Feature Correlation")
 ![alt text for screen readers](images/radar-graph.png "Feature Correlation")
