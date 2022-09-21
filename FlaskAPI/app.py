@@ -18,7 +18,7 @@ def hello_spotify():
 
 
 def load_models():
-    file_name = "models/stacked_clf.p"
+    file_name = "models/stacked_model.p"
     with open(file_name, 'rb') as pickled:
         data = pickle.load(pickled)
         model = data['model']

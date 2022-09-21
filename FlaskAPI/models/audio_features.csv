@@ -1,22 +1,22 @@
 series_name,audio_feature,value
-Silicon Valley,acousticness,0.0605
-Silicon Valley,danceability,0.663
-Silicon Valley,energy,0.745
-Silicon Valley,instrumentalness,0.000144
-Silicon Valley,liveness,0.131
-Silicon Valley,speechiness,0.082
-Silicon Valley,valence,0.609
-Sons of Anarchy,acousticness,0.1445
-Sons of Anarchy,danceability,0.4955
-Sons of Anarchy,energy,0.6585000000000001
-Sons of Anarchy,instrumentalness,0.0005825
-Sons of Anarchy,liveness,0.117
-Sons of Anarchy,speechiness,0.03795
-Sons of Anarchy,valence,0.4525
-Vikings,acousticness,0.638
-Vikings,danceability,0.236
-Vikings,energy,0.226
-Vikings,instrumentalness,0.871
-Vikings,liveness,0.111
-Vikings,speechiness,0.0407
-Vikings,valence,0.0451
+Silicon Valley,acousticness,0.14054676
+Silicon Valley,danceability,0.6831047619047619
+Silicon Valley,energy,0.7714761904761904
+Silicon Valley,instrumentalness,0.20936521619047618
+Silicon Valley,liveness,0.15822666666666668
+Silicon Valley,speechiness,0.12403333333333334
+Silicon Valley,valence,0.6119742857142857
+Sons of Anarchy,acousticness,0.3221998944649447
+Sons of Anarchy,danceability,0.515391143911439
+Sons of Anarchy,energy,0.5831549815498155
+Sons of Anarchy,instrumentalness,0.003443522250922509
+Sons of Anarchy,liveness,0.14826457564575646
+Sons of Anarchy,speechiness,0.03995719557195572
+Sons of Anarchy,valence,0.4545667896678967
+Vikings,acousticness,0.6541549056603773
+Vikings,danceability,0.2649830188679245
+Vikings,energy,0.20748311320754717
+Vikings,instrumentalness,0.8833301886792453
+Vikings,liveness,0.10534339622641509
+Vikings,speechiness,0.04177075471698113
+Vikings,valence,0.05975188679245284
