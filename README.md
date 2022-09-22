@@ -62,3 +62,6 @@ The most succesful model is stacked algorithm with a little difference. Stacked 
 
 ![alt text for screen readers](images/model_structure.png "Stacked Algorithm Structure")
 ## Application
+I built a simple web app with the Flask Framework. It can be shown on the below figure. I always thought that Ace of Spades by Motorhead could be a perfect match for Sons of Anarchy, and hopefully machine learning algorithm thinks the same way with the 98% probability score.
+
+![alt text for screen readers](images/application.gif "Application")
