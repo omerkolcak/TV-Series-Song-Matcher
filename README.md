@@ -65,3 +65,5 @@ The most succesful model is stacked algorithm with a little difference. Stacked 
 I built a simple web app with the Flask Framework. It can be shown on the below figure. I always thought that Ace of Spades by Motorhead could be a perfect match for Sons of Anarchy, and hopefully machine learning algorithm thinks the same way with the 98% probability score.
 
 ![alt text for screen readers](images/application.gif "Application")
+
+Also, I made different experiments for the other tv series. Ready for the Beat by Styline matched with the Silicon Valley with the 93% probability score. Unfortunately, I could not come up with any song for Vikings. Therefore, I investigated this further, and I found that more than 90% of the songs composed by Trevor Morris specifically for Vikings. This may show that, songs are too specific and have its own charactersitic, so that it is hard to match with different songs.
